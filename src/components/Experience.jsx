@@ -6,19 +6,19 @@ const Experience = () => {
     <div className="relative">
       <img
         src={bgExperience}
-        className="w-full h-96  object-cover"
+        className="w-full h-96 md:h-[600px] object-cover"
         alt="background experiencia"
       />
 
       <div className="bg-white/50 w-full h-full absolute top-0 left-0">
         <div className="h-full w-full flex justify-around items-center p-5 gap-3">
-          <div className="w-80 md:w-96 md:m-0 group bg-stone-800 bg-opacity-90 drop-shadow-lg bg-blend-screen text-stone-200 py-8 px-5">
+          <div className="w-80 md:w-[500px] md:w-96 md:h-[400px] md:flex md:flex-col md:justify-around md:m-0 group bg-stone-800 bg-opacity-90 drop-shadow-lg bg-blend-screen text-stone-200 py-8 px-5">
             <h2 className="font-bold text-xl md:text-3xl">Experiência</h2>
 
-            <div>
+            <div className="md:flex md:flex-col md:gap-5">
               <div className="flex justify-between items-center mt-8 border-l-4 pl-2 border-l-gray-200">
                 <h2 className="text-5xl lg:text-5xl">5+</h2>
-                <h2 className="text-sm lg:text-xl text-right">
+                <h2 className="text-sm md:text-3xl text-right">
                   Anos de
                   <br />
                   experëncia
@@ -27,7 +27,7 @@ const Experience = () => {
 
               <div className="flex justify-between items-center mt-4 border-l-4 pl-2 border-l-gray-200">
                 <h2 className="text-5xl lg:text-5xl">1K+</h2>
-                <h2 className="text-sm lg:text-xl text-right">
+                <h2 className="text-sm md:text-3xl text-right">
                   Serviços
                   <br />
                   Realizados
