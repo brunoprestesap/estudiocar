@@ -27,7 +27,7 @@ const Main = () => {
 
 
                     <div className='flex justify-center'>
-                        <button className='m-5 px-8 py-5 w-72 bg-black text-gray-200'>
+                        <button className='m-8 px-8 py-5 w-72 bg-black text-gray-200'>
                             Solicite uma cotação
                         </button>
                     </div>
