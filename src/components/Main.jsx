@@ -26,13 +26,16 @@ const Main = () => {
                     </div>
 
 
-                    <div className='flex justify-center'>
-                        <button className='m-8 px-8 py-5 w-72 bg-black text-gray-200'>
+                    <div className='flex justify-center md:justify-start'>
+                        <button className='mt-8 px-8 py-5 w-72 bg-black text-gray-200'>
                             Solicite uma cotação
                         </button>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center'>
+
+                </div>
+
+                    <div className='absolute bottom-7 left-24 md:bottom-4 md:right-4 flex flex-col md:flex-row md:mt-5 justify-center md:justify-end items-center'>
                         <div className='text-center'>
                             <h2>
                                 Área de cobertura
@@ -52,9 +55,6 @@ const Main = () => {
                         </div>
 
                     </div>
-
-                </div>
-
             </div>
         </div>
   )
