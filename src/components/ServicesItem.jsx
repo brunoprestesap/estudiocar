@@ -18,8 +18,8 @@ const ServicesItem = ({ id, img, title, desc }) => {
           {desc}
         </h2>
 
-        <div className="border-b-2 py-2 w-fit border-stone-300">
-            <h2 className="text-stone-300 font-bold mb-8 sm:mb-0 md:text-lg">
+        <div className="border-b-2 py-2 w-fit border-stone-300 mb-5">
+            <h2 className="text-stone-300 font-boldsm:mb-0 md:text-lg">
                 Mais detalhes
             </h2>
         </div>
