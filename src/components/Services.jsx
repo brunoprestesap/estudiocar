@@ -35,9 +35,9 @@ const Services = () => {
 
   return (
     <div id='services'>
-        <div className='bg-stone-900 w-full px-5 py-8 md:flex md:flex-row'>
-            <div className='md:w-5/6'>
-                <div className='border-l-2 border-stone-100 p-3'>
+        <div className='bg-stone-900 px-5 py-8 grid grid-cols-1 xl:grid-cols-2'>
+            <div className='w-full xl:px-16'>
+                <div className='border-l-2 border-stone-100 p-5'>
                     
                     <h2 className='text-stone-200 font-bold text-4xl md:text-6xl'>Serviços<br/>Complexos</h2>
 
@@ -59,7 +59,7 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className='md:h-full'>
+            <div>
                 {services.map((e) => {
                     return (
                         <ServicesItem
