@@ -25,7 +25,7 @@ const Slider = () => {
   };
 
   const handleTouchMove = (event) => {
-    slide(event.touches.item[0].clientX);
+     slide(event.touches.item(0).clientX)
   };
 
   const handleMouseDown = () => {
@@ -71,11 +71,13 @@ const Slider = () => {
       >
         <div className="relative h-full sm:opacity-50 hover:opacity-100">
           <div className="absolute inset-y-0 bg-white w-0.5 -ml-px"></div>
+
+          {/* Selector Container */}
           <div
             style={{ touchAction: "none" }}
             onMouseDown={handleMouseDown}
             onTouchMove={handleTouchMove}
-            className="h-12 w-12 -ml-6 -mt-6 rounded-full bg-white absolute top-1/2 sm:top-[238px] lg:top-[300px] shadow-xl flex items-center justify-center cursor-pointer"
+            className="h-12 w-12 -ml-6 -mt-6 top-1/2 rounded-full bg-white absolute shadow-lg flex items-center justify-center cursor-pointer"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
