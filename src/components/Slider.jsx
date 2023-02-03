@@ -69,9 +69,9 @@ const Slider = () => {
         {/* Container do manipulador */}
         <div
           style={{ left: `${imgRevealFraq * 100}%` }}
-          className="absolute inset-y-0 group-hover:opacity-100 opacity-0"
+          className="absolute inset-y-0 md:group-hover:opacity-100 md:opacity-0"
         >
-          <div className="relative h-full opacity-50 hover:opacity-100">
+          <div className="relative h-full md:opacity-50 md:hover:opacity-100">
             <div className="absolute inset-y-0 bg-white w-0.5 -ml-px" />
 
             {/* Selector Container */}
