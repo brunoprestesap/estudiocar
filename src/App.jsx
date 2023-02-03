@@ -3,7 +3,7 @@ import Experience from './components/Experience';
 import Main from './components/Main'
 import Services from './components/Services';
 import Slider from './components/Slider';
-import Depoimentos from './components/Depoimentos'
+import About from './components/About';
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
       <Services />
       <Cta />
       <Slider />
-      <Depoimentos />
+      <About />
     </div>
   );
 }
