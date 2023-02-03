@@ -21,7 +21,7 @@ const Main = () => {
 
                     <div className='border-l-4 border-stone-800 p-2'>
                         <h1 className='sm:text-5xl text-3xl font-bold text-stone-800'>
-                            Desperte o brilho escondido do seu carro com a nossa equipe especializada e treinada na Europa.
+                            Restaure o brilho do seu carro com a nossa equipe especializada na melhores marcas de produtos da Europa.
                         </h1>
                     </div>
 
