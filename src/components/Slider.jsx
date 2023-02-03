@@ -49,7 +49,7 @@ const Slider = () => {
         className="w-full mx-auto relative select-none group"
       >
         <img
-          className="md:h-[600px] w-full object-cover pointer-events-none"
+          className="md:h-[800px] w-full object-cover pointer-events-none"
           src={imgSlider}
           alt="slider imagem"
         />
@@ -63,7 +63,7 @@ const Slider = () => {
           }}
           src={imgSlider}
           alt="slider imagem"
-          className="md:h-[600px] w-full absolute object-cover inset-0 pointer-events-none"
+          className="md:h-[800px] w-full absolute object-cover inset-0 pointer-events-none"
         />
 
         {/* Container do manipulador */}
