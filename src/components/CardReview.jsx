@@ -71,7 +71,7 @@ const CardReview = () => {
     return (
         <div>
 
-            <div className='w-full mt-5'>
+            <div className='w-full my-5'>
                 <img src={reviews[currentIndex].img} className='w-full h-72 object-cover' />
             </div>
 
