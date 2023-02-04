@@ -24,7 +24,7 @@ const Review = () => {
             initialName: 'P',
             name: 'Paulo Junior',
             review: 'Espetacular. O Melhor q já conheci! Tem o cuidado, a atenção, o carinho e nada passa desapercebido! Limpa e detalha o carro da gente de cotonete, literalmente! Parabéns Pablo e Nicolas 👏',
-            modelCar: 'Compas T240'
+            modelCar: 'Compass T240'
         },
         {
             id: 3,
@@ -52,7 +52,32 @@ const Review = () => {
         },
     ]
 
-    const [currentIndex, setCurrentIndex] = useState(1)
+    const [currentIndex, setCurrentIndex] = useState(0)
+    const [currentReview, setCurrentReview] = useState(reviews[currentIndex])
+
+    const nextIndex = () => {
+        if (currentIndex < 4) {
+            setCurrentIndex(() => {
+                return currentIndex + 1
+            })
+            setCurrentReview(reviews[currentIndex])
+            
+        } else if (currentIndex == 4) {
+            setCurrentIndex(() => {
+                return 0
+            })
+            setCurrentReview(reviews[currentIndex])
+            
+        }
+
+    }
+
+    const interval = setInterval(() => {
+        nextIndex()
+        
+    }, 5000)
+
+
   return (
     <div id='reviews' className='bg-[#EFEFEF] w-full p-5'>
         <div className='w-full py-5 px-5 border-l-2 border-stone-800'>
@@ -62,11 +87,11 @@ const Review = () => {
         </div>
 
         <CardReview 
-            img={reviews[currentIndex].img} 
-            initialName={reviews[currentIndex].initialName} 
-            name={reviews[currentIndex].name}
-            review={reviews[currentIndex].review}
-            modelCar={reviews[currentIndex].modelCar}
+            img={currentReview.img} 
+            initialName={currentReview.initialName} 
+            name={currentReview.name}
+            review={currentReview.review}
+            modelCar={currentReview.modelCar}
         />
     </div>
   )
