@@ -12,22 +12,22 @@ const About = () => {
           <h2 className='font-bold text-5xl ml-5 md:text-6xl md:font-bold'>Sobre<br />Estúdio Car Detalhamento</h2>
         </div>
 
-        <p className='text-sm md:text-2xl leading-7 lg:ml-12 my-5'>
+        <p className='text-base md:text-xl leading-7 lg:pr-28 my-3'>
           Estúdio Car Detail was created for owners of fine automobiles who share the same appreciation for the art and beauty of cars that we do.
           We offer comprehensive yet flexible detailing and protection services to suit our clients needs, and we do it with unequaled quality, passion, and professionalism.
         </p>
 
         <div className=''>
-          <p className='text-base md:text-xl'>
+          <p className='text-sm md:text-base'>
             contato@estudiocar.com.br
           </p>
-          <p className='text-base md:text-xl'>
+          <p className='text-sm md:text-base'>
             (32)98871-3211
           </p>
-          <p className='text-base md:text-xl'>
+          <p className='text-sm md:text-base'>
             R Regina Ladeira Halfeld - Tiguera, Juiz de Fora - MG / 36071-100
           </p>
-          <div className='mt-3 md:mt-12 flex items-center gap-3'>
+          <div className='mt-3 md:mt-3 flex items-center gap-3'>
             <FaInstagram size={35} />
             <p className='font-sm text-stone-800'>@estudio_car_detalhamento</p>
           </div>

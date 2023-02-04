@@ -4,6 +4,7 @@ import Main from './components/Main'
 import Services from './components/Services';
 import Slider from './components/Slider';
 import About from './components/About';
+import Review from './components/Review';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Cta />
       <Slider />
       <About />
+      <Review />
     </div>
   );
 }
