@@ -44,7 +44,7 @@ const Services = () => {
                 </div>
 
                 <div className='px-5 py-8'>
-                    <h2 className='text-base md:text-xl text-stone-200 md:my-8 landing-7'>
+                    <h2 className='text-base md:text-lg text-stone-200 landing-7'>
                         O detalhamento tem um significado diferente para todos, e é por isso que, com o Estúdio Car,
                         oferecemos vários serviços para trazer de volta o brilho e a clareza do seu veículo,
                         até o nível de detalhe restaurador para trazer um veículo a uma condição de novo ou melhor.

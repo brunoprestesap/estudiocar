@@ -72,7 +72,7 @@ const CardReview = () => {
         <div>
 
             <div className='w-full my-5'>
-                <img src={reviews[currentIndex].img} className='w-full h-72 object-cover' />
+                <img src={reviews[currentIndex].img} className='w-full h-72 md:h-96 object-cover' />
             </div>
 
             <div className='w-full flex justify-start items-center'>
@@ -86,7 +86,7 @@ const CardReview = () => {
             </div>
 
             <div className='w-full h-24 my-5'>
-                <h2 className='text-sm text-stone-700'>
+                <h2 className='text-sm md:text-lg text-stone-800'>
                     {reviews[currentIndex].review}
                 </h2>
             </div>
@@ -100,7 +100,7 @@ const CardReview = () => {
                         <FaRegStar size={20} />
                         <FaRegStar size={20} />
                     </div>
-                    <h2 className='text-sm font-bold'>
+                    <h2 className='text-sm md:text-xl font-bold'>
                         {reviews[currentIndex].modelCar}
                     </h2>
                 </div>
