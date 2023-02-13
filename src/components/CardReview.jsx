@@ -77,10 +77,10 @@ const CardReview = () => {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2">
-      <div className="w-full my-5">
+      <div className="w-full flex justify-center my-5">
         <img
           src={reviews[currentIndex].img}
-          className="w-5/6 lg:w-full h-72 md:h-96 object-cover"
+          className="w-full h-72 lg:h-96 object-cover"
         />
       </div>
 

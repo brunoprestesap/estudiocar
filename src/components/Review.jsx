@@ -5,7 +5,7 @@ import CardReview from './CardReview'
 const Review = () => {
 
   return (
-    <div id='reviews' className='bg-[#EFEFEF] w-full h-screen p-5'>
+    <div id='reviews' className='bg-[#EFEFEF] w-full p-5'>
         <div className='w-full py-2 px-5 border-l-2 border-stone-800'>
             <h2 className='text-4xl font-bold font-stone-800'>
                 Reviews de Clientes
