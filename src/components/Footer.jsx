@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../assets/logo.png'
+import logo from "../assets/logo.png";
 
 import { FaInstagram } from "react-icons/fa";
 
@@ -14,9 +14,17 @@ const Footer = () => {
             </h2>
           </div>
           <div className="flex justify-center w-full">
-            <button className="px-8 py-5 bg-slate-600/80 w-full my-5">
-              <h2 className="text-2xl text-slate-300">Solicite uma cotação</h2>
-            </button>
+            <a
+              href="https://wa.me/5532988713211"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="px-8 py-5 bg-slate-600/80 w-full my-5">
+                <h2 className="text-2xl text-slate-300">
+                  Solicite uma cotação
+                </h2>
+              </button>
+            </a>
           </div>
         </div>
 
@@ -41,7 +49,9 @@ const Footer = () => {
 
         <div className="my-5 lg:mx-8 lg:my-0">
           <h2 className="text-slate-300 text-lg mb-3">Home</h2>
-          <h2 className="text-slate-300 text-lg mb-3">Filme para proteção de pintura</h2>
+          <h2 className="text-slate-300 text-lg mb-3">
+            Filme para proteção de pintura
+          </h2>
           <h2 className="text-slate-300 text-lg mb-3">Correção de pintura</h2>
           <h2 className="text-slate-300 text-lg mb-3">Coating Cerâmico</h2>
           <h2 className="text-slate-300 text-lg mb-3">Lavagem detalhada</h2>
@@ -51,8 +61,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-[#1A1A1A] p-5 w-full flex flex-col justify-center items-center">
-        <img src={logo} alt='logo rodapé' className="w-24" />
-        <h2 className="text-sm text-slate-300 my-5 text-center">Copyright © 2023 by Estudio Car Detalhamento. Todos os direitos reservados.</h2>
+        <img src={logo} alt="logo rodapé" className="w-24" />
+        <h2 className="text-sm text-slate-300 my-5 text-center">
+          Copyright © 2023 by Estudio Car Detalhamento. Todos os direitos
+          reservados.
+        </h2>
       </div>
     </div>
   );

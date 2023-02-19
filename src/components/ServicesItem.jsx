@@ -5,7 +5,7 @@ const ServicesItem = ({ id, img, title, desc }) => {
     <div key={id} className="w-full grid grid-cols-1 sm:grid-cols-2 sm:p-5">
       <div>
         <img
-          className="object-cover w-full md:w-full h-64 md:h-96"
+          className="object-cover w-full h-64 md:h-96"
           src={img}
           alt="Imagem do serviço"
         />

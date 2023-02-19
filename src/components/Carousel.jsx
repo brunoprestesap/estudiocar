@@ -29,7 +29,7 @@ const Carousel = ({
       </div>
 
       <div className="flex flex-col-reverse lg:flex-row justify-center items-center lg:items-start">
-        <div className="w-5/6 p-5">
+        <div className="w-full p-5">
           <div className="overflow-hidden relative rounded-xl">
             <div
               className="flex transition-transform ease-out duration-500"
@@ -66,7 +66,7 @@ const Carousel = ({
           </div>
         </div>
 
-        <div className="p-5">
+        <div className="px-5">
           <h2 className="lg:underline lg:underline-offset-8 text-xl font-medium lg:text-6xl lg:text-right text-slate-800">Veja alguns de nossos serviços em fotos</h2>
         </div>
       </div>

@@ -17,7 +17,7 @@ const Experience = () => {
 
             <div className="md:flex md:flex-col md:gap-5">
               <div className="flex justify-between items-center mt-8 border-l-4 pl-2 border-l-gray-200">
-                <h2 className="text-5xl lg:text-5xl">5+</h2>
+                <h2 className="text-5xl lg:text-5xl">9+</h2>
                 <h2 className="text-sm md:text-3xl text-right">
                   Anos de
                   <br />

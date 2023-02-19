@@ -46,7 +46,7 @@ const Slider = () => {
     <div id="slider">
       <div 
         ref={imageContainer}
-        className="w-full mx-auto relative select-none group"
+        className="w-full relative select-none group"
       >
         <img
           className="md:h-[800px] w-full object-cover pointer-events-none"
