@@ -16,11 +16,10 @@ const About = () => {
         </div>
 
         <p className="text-sm md:text-lg leading-7 md:my-5">
-          Estúdio Car Detail was created for owners of fine automobiles who
-          share the same appreciation for the art and beauty of cars that we do.
-          We offer comprehensive yet flexible detailing and protection services
-          to suit our clients needs, and we do it with unequaled quality,
-          passion, and professionalism.
+          Estúdio Car Detalhamento já a 9 anos no marcado. Com formação internacional na Alemanha e Espanha.
+          Certifield na gyeon Alemanha em full detail. Trabalha evoluindo o detalhamento no Brasil aplicando ppf, Coating cerâmico, detalhamento full. 
+          Com as melhores marcas do mundo com alta tecnologia. Alem disso, ministramos cursos na área e atualmente somos detail oficial da fábrica do 
+          grupo Fiat Brasil
         </p>
 
         <div className="md:my-5">
